@@ -1,0 +1,7 @@
+.teste {
+  background-color: transparent;
+}
+
+.teste:not(:first-child) {
+  background-color: black;
+}
