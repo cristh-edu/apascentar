@@ -12,13 +12,13 @@ export type Variant = "ghost" | "contained" | "outlined";
 function createVariant(theme: Theme, colorVariant) {
   return {
     contained: {
-      backgroundColor: theme.colors[colorVariant].x500,
+      backgroundColor: theme.colors[colorVariant].x400,
       color: theme.colors.neutral.x000,
       hover: {
-        backgroundColor: theme.colors[colorVariant].x400,
+        backgroundColor: theme.colors[colorVariant].x300,
       },
       focus: {
-        backgroundColor: theme.colors[colorVariant].x600,
+        backgroundColor: theme.colors[colorVariant].x500,
       },
     },
     outlined: {

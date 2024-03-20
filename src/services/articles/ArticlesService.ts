@@ -6,7 +6,7 @@ export interface Article {
   metadata: {
     date: string;
     url: string;
-    tags: string[];
+    tags?: string[];
   };
   image?: string;
   slug: string; // Como se fosse o ID do Article
@@ -29,7 +29,7 @@ export default function ArticlesService() {
         const article: Article = {
           metadata: {
             date: new Date(data.date).toISOString(),
-            tags: data.tags,
+            tags: data.tags || [],
             url: data.url,
           },
           image: data.image || "",

@@ -2,10 +2,9 @@ site:
   title: "Batista Apascentar"
   description: "Bem vindo a Apascentar"
 personal:
-  name: "Batista Apascentar"
-  avatar: "https://yt3.googleusercontent.com/D6ZAmm9lMlRI7g5iQbmrffFxd8fk6YxUP_ABKgdvBA6PR4j4wOVcxARdAMJMymrG1q1Ut6hOpQ=s176-c-k-c0x00ffffff-no-rj"
+  nome: "Batista Apascentar"
+  endereço: "Av. Orquídea, 797, Bom Jardim, Ipatinga - MG, 35162-290"
+  mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235.09350199737892!2d-42.580051310440986!3d-19.477283651429904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xafff8f5c25d53b%3A0xb7271a6c7b8d2b8f!2sAv.%20Orqu%C3%ADdea%2C%20797%20-%20Esperan%C3%A7a%2C%20Ipatinga%20-%20MG%2C%2035162-290!5e0!3m2!1spt-BR!2sbr!4v1710936655059!5m2!1spt-BR!2sbr"
   socialNetworks:
     youtube: "https://www.youtube.com/@IBBJTV"
-    github: "https://www.youtube.com/@IBBJTV"
-    twitter: "https://www.youtube.com/@IBBJTV"
-    linkedin: "https://www.youtube.com/@IBBJTV"
+    instagram: "https://www.youtube.com/@IBBJTV"

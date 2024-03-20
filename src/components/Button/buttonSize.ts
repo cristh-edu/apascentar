@@ -18,8 +18,8 @@ export const buttonSize = {
   },
   lg: {
     borderRadius: "6px",
-    paddingVertical: "8px",
-    paddingHorizontal: "16px",
+    paddingVertical: "10px",
+    paddingHorizontal: "20px",
   },
   xl: {
     borderRadius: "6px",

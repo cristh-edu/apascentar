@@ -7,6 +7,7 @@ interface BoxProps {
   children?: React.ReactNode;
   styleSheet?: StyleSheet;
   className?: string;
+  viewBox?: string;
 }
 export default function Box({ styleSheet, children, tag, ...props }: BoxProps) {
   const Tag = tag || "div";

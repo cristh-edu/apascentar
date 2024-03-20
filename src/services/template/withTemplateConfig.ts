@@ -8,6 +8,8 @@ export interface TemplateConfig {
   };
   personal?: {
     name?: string;
+    endereço?: string;
+    mapa?: string;
     avatar?: string;
     socialNetworks?: {
       youtube?: string;
