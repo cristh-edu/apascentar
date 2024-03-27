@@ -32,27 +32,29 @@ interface ContainerArticlesProps {
 Container.Articles = ({ articles }: ContainerArticlesProps) => {
   return (
     <Box>
-      {articles.map(({ slug, title, subtitle, resume, metadata, image }, i) => {
-        const { url, tags } = metadata;
-        return (
-          <ContainerSection
-            align={i % 2 ? "left" : "right"}
-            key={slug}
-            url={url}
-            image={image}
-          >
-            <Box styleSheet={{ gridArea: "children" }}>
-              <ContainerText
-                title={title}
-                subtitle={subtitle}
-                resume={resume}
-                tags={tags}
-                url={url}
-              />
-            </Box>
-          </ContainerSection>
-        );
-      })}
+      {articles.map(
+        ({ slug, title, subtitle, resume, metadata, image, content }, i) => {
+          const { url, tags } = metadata;
+          return (
+            <ContainerSection
+              align={i % 2 ? "left" : "right"}
+              key={slug}
+              url={url}
+              image={image}
+            >
+              <Box styleSheet={{ gridArea: "children" }}>
+                <ContainerText
+                  title={title}
+                  subtitle={subtitle}
+                  resume={resume}
+                  tags={tags}
+                  url={url}
+                />
+              </Box>
+            </ContainerSection>
+          );
+        }
+      )}
     </Box>
   );
 };

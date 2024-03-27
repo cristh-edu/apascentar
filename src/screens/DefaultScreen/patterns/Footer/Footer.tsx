@@ -32,7 +32,7 @@ export default function Footer() {
         <Personal />
         <iframe
           style={{ width: "100%", height: "100%" }}
-          src={templateConfig?.personal?.mapa}
+          src={templateConfig?.personal?.map}
           loading="lazy"
         ></iframe>
       </Box>
@@ -76,7 +76,7 @@ const Personal = () => {
           variant="body2"
           styleSheet={{ color: theme.colors.primary.x400, width: "100%" }}
         >
-          {templateConfig?.personal?.endereço}
+          {templateConfig?.personal?.address}
         </Text>
         {/* Icones Redes Sociais */}
         <Box
